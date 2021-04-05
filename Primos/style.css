@@ -1,0 +1,87 @@
+.div-main, .div-main2{
+    border: 1px solid black;
+    width:75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.valores, .valores-2{
+    border: 1px solid black;
+    display:flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.result, .result-2{
+    border: 1px solid black;
+}
+
+.botoes{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.linha{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.botao{
+    height: 50px;
+    width: 50px;
+    margin-right: 11px;
+    background-color: cornsilk;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+.botao-2{
+    height: 30px;
+    width: 50px;
+    margin-right: 11px;
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;   
+}
+
+.corPar{
+    background-color: red;
+}
+
+.corImpar{
+    background-color: green;
+}
+
+.corPrimo{
+    background-color: blue;
+}
+
+.corEspecial{
+    background-color: pink;
+}
+.corEspecial2{
+    background-color: deeppink;
+}

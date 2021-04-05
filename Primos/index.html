@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pequenos Projetos</title>
+</head>
+<body>
+
+    <div class='div-main'>
+            Números Primos
+            <div class="valores">
+                <label for="vi">
+                    Valor inicial:
+                    <input  id='vi' type="text">
+                </label>
+                <label for="vf">
+                    Valor  final:
+                    <input id='vf' type="text">
+                </label>
+                <button class='btn' onclick="calcula()"> Calcular</button>
+            </div>
+            <div class="result">
+                    2,3,5,7,11,13,17
+            </div>
+    </div>
+    <div class="div-main2">
+        Números Perfeitos
+        <div class="valores-2">
+            <label for="vi">
+                Valor inicial:
+                <input  id='vi2' type="text">
+            </label>
+            <label for="vf">
+                Valor  final:
+                <input id='vf2' type="text">
+            </label>
+            <button class='btn' onclick="calcula_perf()"> Calcular</button>
+        </div>
+        <div class="result-2">
+                2,3,5,7,11,13,17
+        </div>
+    </div>
+    <div class='botoes'>
+        <div class="linha">
+            <div class="botao">1</div>
+            <div class="botao">2</div>
+            <div class="botao">3</div>
+            <div class="botao">4</div>
+            <div class="botao">5</div>
+        </div>
+        <div class="linha">
+            <div class="botao">6</div>
+            <div class="botao">7</div>
+            <div class="botao">8</div>
+            <div class="botao">9</div>
+            <div class="botao">10</div>
+        </div>
+        <div class='linha'>
+            <div class="botao">11</div>
+            <div class="botao">12</div>
+            <div class="botao">13</div>
+            <div class="botao">14</div>
+            <div class="botao">15</div>
+        </div>
+        <div class="linha">
+            <div class="botao">16</div>
+            <div class="botao">17</div>
+            <div class="botao">18</div>
+            <div class="botao">19</div>
+            <div class="botao">20</div>
+        </div>
+        <div class="linha">
+            <button class="botao-2" onclick="corPar()">  Pares </button>
+            <button class="botao-2" onclick="corImpar()">   Ímpares</button>
+            <button class="botao-2"onclick="corPrimo()">   Primos</button>
+        </div>
+    </div>
+    <script src="calcula.js"></script>
+</body>
+</html>
