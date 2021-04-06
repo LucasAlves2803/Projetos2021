@@ -18,8 +18,7 @@ header{
 }
 
 .slider{
-    width: 500px;
-    height: 300px;
+    height: inherit; /* herda a altura da tela do elemento pai, que é o header */
     overflow: hidden; 
 }
 
