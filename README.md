@@ -1,7 +1,7 @@
 # Projetos2021
 <h2 align="center" >  <i> Projetos Javascript </i> </h2>
 
-<h3 align='center'>  <i> Urna Eletrônica </i> <h3>
+<h3 align='center'>  <i> Urna Eletrônica </i> </h3>
 ### Projeto que simula uma urna eletrônica, essa urna funciona para votar em vereadores e prefeitos.
 ### Para mexer no projeto acesse o site: <https://lucasalves2803.github.io/Urna-/>
 
