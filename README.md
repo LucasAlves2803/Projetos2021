@@ -4,7 +4,7 @@
 <h2 align='center'>  <i> 1- Urna Eletrônica </i> </h2>
 
 ### Projeto que simula uma urna eletrônica, essa urna funciona para votar em vereadores e prefeitos.
-### Para mexer no projeto acesse o site: <https://lucasalves2803.github.io/Urna-/>
+### Link para acessar o site: <https://lucasalves2803.github.io/Urna-/>
 
 ## Exemplos
 #### Imagem da Urna
@@ -43,5 +43,23 @@
 <h2 align='center'>  <i> 2- Formulário </i> </h2>
 
 ## É um site que simula a inserção de informações para cadastro. Ele faz as validações para impedir que informações incorretas sejam inseridas.
+## Link para acessar o site: https://lucasalves2803.github.io/Site_de_Cadastro/
 
-### Imagem do site
+#### Imagem do site
+![](https://github.com/LucasAlves2803/Projetos2021/blob/da3539620a6107021d6c4ba8458558284796232f/Formul%C3%A1rio/Site%20de%20cadastro.png)
+
+#### Informações Obrigatórias
+![](https://github.com/LucasAlves2803/Projetos2021/blob/3a667d7d814fdaad5ebe075e01faf7fd2dbda8c1/Formul%C3%A1rio/Imagens/Campo%20Obrigat%C3%B3rio.png)
+###### Nesse site o nome e a senha são informações obrigatórias, isso significa que não é possível fazer o cadastro sem ter essas informações.
+
+#### Validação de Email
+![](https://github.com/LucasAlves2803/Projetos2021/blob/3a667d7d814fdaad5ebe075e01faf7fd2dbda8c1/Formul%C3%A1rio/Imagens/Valida%C3%A7%C3%A3o_de_email.png)
+###### Apesar de o email não ser uma informação obrigatória, quando ele é inserido ele é validado, ou seja, é verificado se realmente foi inserido um email.
+
+#### Informações Válidas
+![](https://github.com/LucasAlves2803/Projetos2021/blob/3a667d7d814fdaad5ebe075e01faf7fd2dbda8c1/Formul%C3%A1rio/Imagens/Informa%C3%A7%C3%B5es%20V%C3%A1lidas.png)
+###### Quando todas as informações são válidas, a página seria redirecionada para uma página php, que poderia usar essas informações. Como esse site é só um exemplo, então essa página php não existe, porque o objetivo deste site é apenas fazer uma validação simples.
+
+### Detalhes
+#### O Objetivo deste projeto é criar uma página de cadastro simples, por isso que não tem uma validação no backend.
+#### Para acessar o site clique no link: https://lucasalves2803.github.io/Site_de_Cadastro/ 
