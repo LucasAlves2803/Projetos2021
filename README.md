@@ -1,12 +1,13 @@
 # Projetos2021
-<h2 align="center" >  <i> Projetos Javascript </i> </h2>
+<h1 align="center" >  <i> Projetos Javascript </i> </h1>
 
-<h3 align='center'>  <i> Urna Eletrônica </i> </h3>
+<h2 align='center'>  <i> 1- Urna Eletrônica </i> </h2>
+
 ### Projeto que simula uma urna eletrônica, essa urna funciona para votar em vereadores e prefeitos.
 ### Para mexer no projeto acesse o site: <https://lucasalves2803.github.io/Urna-/>
 
 ## Exemplos
-
+#### Imagem da Urna
 ![](https://github.com/LucasAlves2803/Projetos2021/blob/f701274df9ac9e3322889b467e65b4098f338a17/Urna%20Eletr%C3%B4nica/Imagens/Urna.png)
 
 ### Voto Normal
@@ -37,3 +38,10 @@
 ### Detalhes finais
 #### Relembrando, para mexer no projeto acesse o site: <https://lucasalves2803.github.io/Urna-/>
 #### Para ver o código-fonte bastar acessar o repositório Urna Eletrônica.
+
+## 
+<h2 align='center'>  <i> 2- Formulário </i> </h2>
+
+## É um site que simula a inserção de informações para cadastro. Ele faz as validações para impedir que informações incorretas sejam inseridas.
+
+### Imagem do site
