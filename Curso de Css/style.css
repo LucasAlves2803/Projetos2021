@@ -1,0 +1,120 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+    /*
+        Esse css selector mudará a fonte de todos os elementos da 
+        página
+    */
+}
+
+
+.container{
+    background-color: #333;
+    color: #eee;
+    width: 80%; /* width: 790px; Coloca uma largura máxima de 790px (espaço orizontal), mas nesse caso a largura fica estática 
+                   width: 80%; A largura agora ficou dinâmica, nesse caso sempre será 80% da largura da tela*/
+    /* margin: auto;  Centraliza o elemento */
+    box-sizing: border-box; /* Resolve o problema da caixa não aparecer 
+    completamente */
+    margin:auto; /* Se eu pressionar ctrl+d eu seleciono os valores
+               das margens e altero eles todos de uma vez */
+    margin-top: auto;
+    margin-left: auto;
+    border: 15px solid red;
+    padding: 20px;
+}
+
+.container h1{
+    font-size: 30px;
+}
+
+
+.main-aside ul{
+    list-style: none; /* Retira as bolinhas */
+    text-align: center; /* Alinha o texto para o centro */
+    padding: unset; /* Elimina qualquer padding que esteja pre-configurado */
+}
+
+.main-aside h1{
+    text-align: center;
+}
+
+.main-aside ul a {
+    text-decoration: none; 
+    color:black;
+}
+
+.main-aside ul a:hover{
+    color:chartreuse;
+}
+
+.main-aside ul a:visited{
+    color: greenyellow; 
+    /* Coloca os elemetos que os links já foram visitados com a cor acima */
+}
+
+.main-form{
+    padding-left: 20px;
+}
+
+.main-form .form-group{
+    padding-bottom: 10px;
+}
+
+.main-form .form-group input{ 
+    /* todos os inputs que estiverem dentro da classe form-group 
+    serão alterados por esse css*/
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.main-form .form-group label {
+    display: block;
+}
+
+.button{
+    padding: 15px;
+    background-color: #333;
+    color: #eee;
+    border: none;
+}
+
+.form{
+    width: 80%;
+    margin: auto;
+}
+
+.relative{
+    position: relative;
+    border: 3px solid black;
+    height: 500px;
+}
+.absolute h1{
+    position: absolute;
+    bottom: 250px;
+    margin:0; /* O elemento h1 por padrão já vem com uma margem  */
+}
+
+#main_navbar{
+    background: #333;
+    color: #eee;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    position: sticky;
+    top:10px;
+}
+
+.fixed{
+    background: #333;
+    color: #eee;
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+    position: fixed;
+    bottom:0;
+    right:0;
+    margin: 20px;
+}
